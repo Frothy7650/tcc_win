@@ -4,7 +4,7 @@
   "clone_command": "git clone ",
   "clone_url": "git://repo.or.cz/tinycc.git",
   "build": "cd C:/Users/docker/AppData/Local/Temp/ghpkg/tcc_win/win32 && .\\build-tcc.bat",
-  "binary_name": "tcc",
+  "binary_name": "tcc libtcc.dll",
   "binary_dir": "win32/",
   "dependencies": ["gcc"],
   "os": ["windows"]
