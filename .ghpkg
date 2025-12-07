@@ -3,7 +3,7 @@
   "description": "Small but fast C compiler, compatible with most GNUC extensions",
   "clone_command": "git clone ",
   "clone_url": "git://repo.or.cz/tinycc.git",
-  "build": "cd $temp/win32 && ./win32/build-tcc.bat",
+  "build": "cd $temp/win32 && ./build-tcc.bat",
   "binary_name": "tcc",
   "binary_dir": "win32/",
   "dependencies": ["gcc"],
