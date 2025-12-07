@@ -6,6 +6,7 @@
   "build": "cd C:/Users/docker/AppData/Local/Temp/ghpkg/tcc_win/win32 && .\\build-tcc.bat",
   "binary_name": "tcc.exe libtcc.dll",
   "binary_dir": "win32/",
+  "libs": ["libtcc.dll"],
   "dependencies": ["gcc"],
   "os": ["windows"]
 }
